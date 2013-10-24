@@ -1,0 +1,148 @@
+/* 小林 */
+
+/* body */
+body{
+	background-color: #ffcc66;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+}
+
+/* 文字 */
+.logo{
+	color: #332200;
+	font-weight: bold; 
+	font-family: 'Josefin Sans';
+  	font-style: normal;
+  	font-weight: 400;
+  	src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+/* 画像 */
+.accimg{
+	float: left;
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+/* 各コンテンツ */
+#top{
+	overflow: auto;
+	height: 100%;
+}
+
+	#papero{
+		width: 40%;
+		float: left;
+	}
+
+	#catch{
+		width: 60%;
+		float: left;
+		margin-left:-20px;	
+	}
+
+
+#teamintro{
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+	float: left;
+}
+
+	.team{
+		margin: 20px;
+		padding: 10px;
+		float: left;
+	}
+
+	#voice{
+		background-color: #ffaa00;
+	}
+
+	#music{
+		background-color: #cfcfcf;
+	}
+
+	#hi{
+		background-color: #ffff99;
+	}
+
+	#hai{
+		background-color: #6699ff;
+	}
+
+	#lang{
+		background-color: #e5ff66;
+	}
+
+	#langacq{
+		background-color: #ff8066;
+	}
+
+#labointro{
+	background-color: #ffeecc;
+	padding: 10px;
+	margin-right: 60px;
+	margin-left: 60px;
+	//margin: 60px;
+	//margin-top: 60px;
+	clear: left; 
+	//border: 1px solid #CC0000;
+	//margin-bottom: 20px;
+}
+
+#bfoto{
+	background-color: #ffeecc;
+	text-align: center;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	//border: 1px solid #CC0000;
+}
+
+	.foto{
+		width: 500px; 
+		height: 400px;
+		margin: 20px;
+	}
+	
+	#foto1{
+		background-color: white;
+		margin-top: 10px;
+		//margin-right: 20px;
+		width: 45%;
+		height: 40%;
+		float: left;
+		margin-bottom: 60px;
+	}
+	
+	#foto2{
+		background-color: white;
+		margin-top: 10px;
+		//margin-left: 20px;
+		width: 45%;
+		height: 40%;
+		float: right;
+		margin-bottom: 60px;
+	}
+
+#demo{
+	position: relative; 
+	clear: left;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+
+}
+
+#studyintro{
+	position: relative; 
+	clear: left;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+}
+
+
+
+ //メモ　border: 1px solid #CC0000;　確認

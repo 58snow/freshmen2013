@@ -1,0 +1,271 @@
+/* 基本設定 */
+body{
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	background-color: #ffcc66;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', 
+	  'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+}
+
+/* 文字 */
+.logo{
+	color: #332200;
+	font-weight: bold; 
+	font-family: 'Josefin Sans';
+  	font-style: normal;
+  	font-weight: 400;
+  	src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+/* 画像 */
+.accimg{
+	float: left;
+	margin: 20px;
+	width: 40%;
+	height: 30%;
+}
+
+#miku{
+	float: left;
+	margin: 20px;
+	width: 40%;
+	height: 40%;
+}
+
+/* フロントページ */
+#top{
+	 overflow: auto;
+	 height: 100%;
+	 width: 1160px;
+}
+
+#papero{
+	width: 40%;
+	float: left;
+}
+
+#catch{
+	width: 60%;
+	float: left;
+	margin-left:-20px;
+}
+
+
+/* teamintro */
+#teamintro{
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+	position: relative;
+	width: 1180px;
+	height: 1785px;
+	overflow: hidden;
+}
+
+#teamMein{
+	weight:100%;
+	margin: 0 auto;  
+}
+
+.team{
+	width: 530px;
+	height:530px;
+	//margin: 10px;
+	//margin-left: 10px;
+	padding: 10px;
+	overflow: auto;
+	position: absolute;
+}
+
+#voice{
+	background-color: #ffaa00;
+	top: 125px;	
+	margin-left: 20px;
+	}
+
+#music{
+	background-color: #cfcfcf;
+	top: 125px;
+	margin-left: 595px;
+	}
+
+#hi{
+	background-color: #ffff99;
+	top: 685px;
+	margin-left: 20px;
+	}
+
+#hai{
+	background-color: #6699ff;
+	top: 685px;
+	margin-left: 595px;
+	}
+
+#lang{
+	background-color: #e5ff66;
+	top: 1245px;
+	margin-left: 20px;
+	}
+
+#langacq{
+	background-color: #ff8066;
+	top: 1245px;
+	margin-left: 595px;
+	}
+
+/* teamintro */
+#labointro{
+	overflow: auto;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin-right: 60px;
+	margin-left: 60px;
+	//margin: 60px;
+	//margin-top: 60px;
+	clear: left; 
+	//border: 1px solid #CC0000;
+	//margin-bottom: 20px;
+	width: 1180px;
+	overflow: auto;
+}
+
+#bphoto{
+	background-color: #ffeecc;
+	//text-align: center;
+	overflow: auto;
+	margin: auto;
+	//margin-right: auto;
+	//margin-left: auto;
+	//margin-bottom: 10px;
+	//border: 1px solid #CC0000;
+	width: 1180px;
+}
+
+.photo{
+	width: 350px;
+	height: 300px;
+	margin: 20px;
+}
+	
+#photo1{
+	overflow: auto;
+	background-color: white;
+	margin-top: 10px;
+	width: 40%;
+	height: 40%;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	color: #4d4d4d;
+}
+	
+#photo2{
+	overflow: auto;
+	background-color: white;
+	margin-top: 10px;
+	width: 40%;
+	height: 40%;
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	color: #4d4d4d;
+}
+
+#demo{
+	position: relative; 
+	clear: left;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+	width: 1180px;
+	overflow: auto;
+}
+
+#demopapero{
+float: left;	
+}
+
+.hukidasi{
+background-color:#ccc;
+border-radius:5px;
+position:relative;
+height: 150px;
+width: 850px;
+float: left;
+}
+ 
+.hukidasi:after {
+border:10px solid transparent;
+border-right-color:#ccc;
+border-left-width:0;
+left:-10px;
+content:"";
+display:block;
+top:30px;
+position:absolute;
+width:0;
+}
+
+.ohanasipapero{
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	margin: 30px;
+	height: 60px;
+	width: 770px;
+}
+
+#studyintro{
+	position: relative; 
+	clear: left;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin: 60px;
+	width: 1180px;
+}
+
+.study{
+	overflow: auto;
+	background-color: #ffeecc;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	//margin: 60px;
+	margin-top: 20px;
+	clear: left; 
+	//border: 1px solid #CC0000;
+	margin-bottom: 20px;
+}
+
+.studyfoto{
+	float: left;
+	margin: 10px;
+	width:150px;
+	height:150px;
+}
+
+#kanato{
+	background-color: #ff8066;
+}
+
+#maki{
+	background-color: #e5ff66;
+}
+
+#ogawa{
+	background-color: #6699ff;
+}
+
+
+
