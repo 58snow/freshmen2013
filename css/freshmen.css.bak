@@ -50,16 +50,6 @@ body{
 	margin-left:-20px;
 }
 
-#float{
-  position:fixed;
-  border-radius: 8px;
-  top:20px;
-  right:60px;
-  background-color:#ff8c00;
-  color:#fff;
-  z-index:2;
-  padding-right:10px;
-}
 
 /* teamintro */
 #teamintro{
@@ -243,23 +233,19 @@ width:0;
 	padding: 10px;
 	margin: 60px;
 	width: 1180px;
-  height:1800px;
 }
 
 .study{
 	overflow: auto;
 	background-color: #ffeecc;
 	padding: 10px;
-//	margin-right: 20px;
-//	margin-left: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
 	//margin: 60px;
 	margin-top: 20px;
 	clear: left; 
 	//border: 1px solid #CC0000;
 	margin-bottom: 20px;
-  width:530px;
-  height:800px;
-  position:absolute;
 }
 
 .studyfoto{
@@ -271,20 +257,14 @@ width:0;
 
 #kanato{
 	background-color: #ff8066;
-  margin-left:20px;
-  top:125px;
 }
 
 #maki{
 	background-color: #e5ff66;
-  margin-left: 610px;
-  top:125px;
 }
 
 #ogawa{
 	background-color: #6699ff;
-  margin-left:20px;
-  top:980px;
 }
 
 

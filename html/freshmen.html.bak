@@ -9,7 +9,7 @@
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta name="description" content="">
- 	<meta name="viewport" content="width=device-width">
+<!-- 	<meta name="viewport" content="width=device-width"> -->
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="../css/freshmen.css" media="all">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic' rel='stylesheet' type='text/css'>
@@ -29,16 +29,6 @@
 		<img id=catch src="../img/logo/title.png" alt="image"  >
 	</div>
 
-  <div id="float">
-      <ul style="list-style:none;">
-        <li>目次だよっ！</li>
-        <li><a href="#top">Top</a></li>
-        <li><a href="#teamintro">Team</a></li>
-        <li><a href="#labointro">About K-lab</a></li>
-        <li><a href="#demo">Demonstration</a></li>
-        <li><a href="#studyintro">Study</a></li>
-      </ul>
-  </div>
 
 	<div id="teamintro">
 		<h1  class="logo">Team</h1>
