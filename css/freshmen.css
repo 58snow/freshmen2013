@@ -200,7 +200,9 @@ body{
 }
 
 #demopapero{
-float: left;	
+float: left;
+height: 30%;
+width: 20%;
 }
 
 .hukidasi{
@@ -210,6 +212,11 @@ position:relative;
 height: 150px;
 width: 850px;
 float: left;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	text-align :center;
+	display: table-cell;
+	vertical-align: middle;	
 }
  
 .hukidasi:after {
@@ -224,6 +231,14 @@ position:absolute;
 width:0;
 }
 
+#chatlog{
+	text-align :center;
+	display: table-cell;
+	vertical-align: middle;
+	height: 150px;
+	width: 850px;	
+}
+
 .ohanasipapero{
 	border:0;
 	padding:10px;
@@ -234,6 +249,7 @@ width:0;
 	margin: 30px;
 	height: 60px;
 	width: 770px;
+	text-align :center;
 }
 
 #studyintro{
@@ -243,30 +259,41 @@ width:0;
 	padding: 10px;
 	margin: 60px;
 	width: 1180px;
-  height:1800px;
+  height:1850px;
 }
 
 .study{
 	overflow: auto;
 	background-color: #ffeecc;
 	padding: 10px;
-//	margin-right: 20px;
-//	margin-left: 20px;
+	//margin-right: 20px;
+	//margin-left: 20px;
 	//margin: 60px;
 	margin-top: 20px;
 	clear: left; 
 	//border: 1px solid #CC0000;
 	margin-bottom: 20px;
-  width:530px;
-  height:800px;
-  position:absolute;
+	width:530px;
+	height:800px;
+	position:absolute;
 }
 
-.studyfoto{
+.studyphoto{
 	float: left;
 	margin: 10px;
 	width:150px;
 	height:150px;
+}
+
+#mapphoto{
+	//float: left;
+	//margin: 10px;
+	width:460px;
+	height:330px;
+	//text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #kanato{
@@ -285,7 +312,14 @@ width:0;
 	background-color: #6699ff;
   margin-left:20px;
   top:980px;
+  margin-bottom: 20px;
 }
 
-
+#map{
+	background-color: #ffaa00;
+	top:980px;
+	margin-bottom: 20px;
+	margin-left: 610px;
+	//text-align: center;
+}
 
