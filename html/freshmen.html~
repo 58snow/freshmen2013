@@ -166,7 +166,7 @@
 <!-- パペロ -->
 <img id="demopapero" src="../img/logo/papero.png" alt="image" height="30%" width="20%" >
 <div class="hukidasi">
-  <div style="text-align:center;"><span id="chatlog">パペロだよ！</span></div>
+  <div style="text-align:center;"><span id="chatlog">仕事したくないなー</span></div>
 </div>
 <input type="text" class="ohanasipapero" value="ここに文章を入力してね">
 </div>
